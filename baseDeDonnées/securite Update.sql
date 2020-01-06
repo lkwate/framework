@@ -1,0 +1,225 @@
+UPDATE adresse SET 
+  valeur_adresse = ?, 
+  element_liaison = ?, 
+  code_typeAdresse = ?, 
+  description = ?, 
+  date_creation = ?, 
+  heure_creation = ?, 
+  heure_modification = ?, 
+  date_modification = ?, 
+  user_createur = ?, 
+  user_modificateur = ?, 
+  date_activation = ?, 
+  code_unique = ?, 
+  code_statut = ? 
+WHERE
+  code = ?;
+UPDATE droit SET 
+  libelle = ?, 
+  code_groupe = ?, 
+  code_operation = ?, 
+  description = ?, 
+  date_creation = ?, 
+  date_modification = ?, 
+  user_createur = ?, 
+  user_modificateur = ?, 
+  date_activation = ?, 
+  code_unique = ?, 
+  code_statut = ? 
+WHERE
+  code = ?;
+UPDATE groupe SET 
+  libelle = ?, 
+  infos_groupe = ?, 
+  nombre_utilisateur = ?, 
+  description = ?, 
+  date_creation = ?, 
+  heure_creation = ?, 
+  date_modification = ?, 
+  heure_modification = ?, 
+  user_createur = ?, 
+  user_modificateur = ?, 
+  date_activation = ?, 
+  code_unique = ?, 
+  code_statut = ? 
+WHERE
+  code = ?;
+UPDATE localisation SET 
+  libelle = ?, 
+  niveau_localite = ?, 
+  lattitude = ?, 
+  longitude = ?, 
+  description = ?, 
+  date_creation = ?, 
+  date_modification = ?, 
+  heure_creation = ?, 
+  heure_modification = ?, 
+  user_createur = ?, 
+  user_modificateur = ?, 
+  date_activation = ?, 
+  code_unique = ?, 
+  code_localite_parent = ?, 
+  code_statut = ? 
+WHERE
+  code = ?;
+UPDATE operation SET 
+  code_rubrique = ?, 
+  code_typeOperation = ?, 
+  libelle = ?, 
+  description = ?, 
+  date_creation = ?, 
+  date_modification = ?, 
+  user_createur = ?, 
+  user_modificateur = ?, 
+  date_activation = ?, 
+  code_unique = ?, 
+  code_statut = ? 
+WHERE
+  code = ?;
+UPDATE relations SET 
+  code_rubrique_source = ?, 
+  code_rubrique_destination = ?, 
+  table_source = ?, 
+  table_destination = ?, 
+  champ_source = ?, 
+  champ_destination = ?, 
+  description = ?, 
+  date_creation = ?, 
+  date_modification = ?, 
+  heure_creation = ?, 
+  heure_modification = ?, 
+  user_createur = ?, 
+  user_modificateur = ?, 
+  date_activation = ?, 
+  code_unique = ?, 
+  code_statut = ? 
+WHERE
+  code = ?;
+UPDATE rubrique SET 
+  nom_rubrique = ?, 
+  code_typeRubrique = ?, 
+  code_parent = ?, 
+  tableName = ?, 
+  description = ?, 
+  date_creation = ?, 
+  heure_creation = ?, 
+  heure_modification = ?, 
+  date_modification = ?, 
+  user_createur = ?, 
+  user_modificateur = ?, 
+  date_activation = ?, 
+  code_unique = ?, 
+  code_statut = ? 
+WHERE
+  code = ?;
+UPDATE sexe SET 
+  libelle = ?, 
+  description = ? 
+WHERE
+  code = ?;
+UPDATE statut SET 
+  libelle = ?, 
+  description = ? 
+WHERE
+  code = ?;
+UPDATE tableCode SET 
+  tableName = ?, 
+  length_code = ?, 
+  prefix_code = ?, 
+  suffix_code = ?, 
+  index_code = ?, 
+  description = ?, 
+  date_creation = ?, 
+  heure_creation = ?, 
+  heure_modification = ?, 
+  date_modification = ?, 
+  user_createur = ?, 
+  user_modificateur = ?, 
+  date_activation = ?, 
+  code_unique = ?, 
+  code_statut = ? 
+WHERE
+  code = ?;
+UPDATE typeAdresse SET 
+  libelle = ?, 
+  regex_pattern = ?, 
+  description = ?, 
+  date_creation = ?, 
+  heure_creation = ?, 
+  heure_modification = ?, 
+  date_modification = ?, 
+  user_createur = ?, 
+  user_modificateur = ?, 
+  date_activation = ?, 
+  code_unique = ?, 
+  code_statut = ? 
+WHERE
+  code = ?;
+UPDATE typeOperation SET 
+  libelle = ?, 
+  description = ?, 
+  date_creation = ?, 
+  date_modification = ?, 
+  user_createur = ?, 
+  user_modificateur = ?, 
+  date_activation = ?, 
+  code_unique = ?, 
+  code_statut = ? 
+WHERE
+  code = ?;
+UPDATE typeRubrique SET 
+  libelle = ?, 
+  description = ? 
+WHERE
+  code = ?;
+UPDATE typeUtilisateur SET 
+  libelle = ?, 
+  description = ?, 
+  date_creation = ?, 
+  heure_creation = ?, 
+  heure_modification = ?, 
+  date_modification = ?, 
+  user_createur = ?, 
+  user_modificateur = ?, 
+  date_activation = ?, 
+  code_unique = ?, 
+  code_statut = ? 
+WHERE
+  code = ?;
+UPDATE usergroupe SET 
+  code_utilisateur = ?, 
+  code_groupe = ?, 
+  description = ?, 
+  date_creation = ?, 
+  heure_creation = ?, 
+  heure_modification = ?, 
+  date_modification = ?, 
+  user_createur = ?, 
+  user_modificateur = ?, 
+  date_activation = ?, 
+  code_unique = ?, 
+  code_statut = ? 
+WHERE
+  code = ?;
+UPDATE utilisateur SET 
+  noms = ?, 
+  prenoms = ?, 
+  nom_utilisateur = ?, 
+  password = ?, 
+  date_naissance = ?, 
+  code_lieu_naissance = ?, 
+  code_sexe = ?, 
+  description = ?, 
+  code_typeUtilisateur = ?, 
+  date_creation = ?, 
+  heure_creation = ?, 
+  date_modification = ?, 
+  heure_modification = ?, 
+  user_createur = ?, 
+  user_modificateur = ?, 
+  date_activation = ?, 
+  code_unique = ?, 
+  code_statut = ? 
+WHERE
+  code = ?;
+

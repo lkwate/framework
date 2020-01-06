@@ -1,0 +1,3 @@
+utilisateur
+Label=nom utilisateur|TypeEditor=Textfield;columnName=nom_utilisateur$required=True
+Label=mot de passe|TypeEditor=passwordField;columnName=password$required=True

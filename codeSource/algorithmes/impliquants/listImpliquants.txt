@@ -1,0 +1,1 @@
+table1;pays;region;libelle##code_localite_parent;=;:pays$niveau_localite;=;2
