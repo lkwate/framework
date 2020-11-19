@@ -57,9 +57,9 @@ INSERT INTO typeRubrique (code, libelle, description) VALUES
 INSERT INTO typeUtilisateur (code, libelle, description, date_creation, date_modification, user_createur, user_modificateur, date_activation, code_unique, code_statut) 
 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?); 
 
-INSERT INTO utilisateur (code, noms, prenoms, nom_utilisateur, password, date_naissance, code_lieu_naissance, code_sexe, code_groupe, description, code_typeUtilisateur, date_creation, date_modification, user_createur, user_modificateur, date_activation, code_unique, code_statut) 
+INSERT INTO utilisateur (code, noms, prenoms, nom_utilisateur, password, date_naissance, code_lieu_naissance, code_sexe, description, code_typeUtilisateur, date_creation, date_modification, user_createur, user_modificateur, date_activation, code_unique, code_statut) 
 VALUES 
-  ('1', 'KWATE DASSI LOIC', NULL, 'system', 'lado', NULL, NULL, NULL, '1200000012', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0', '1000');
+  ('1', 'KWATE DASSI LOIC', NULL, 'system', 'lado', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0', '1000');
 
 /**
 USE information_schema;
