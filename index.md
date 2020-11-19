@@ -1,37 +1,10 @@
-## Welcome to GitHub Pages
+# lado
+Object-Oriented Framework designed to kindly operate on a Relational Database System. This framework is generic enough to interact with any RDBS without writing any code line and setting up with a few configurations. It automatically generates the form necessary for CRUD operations and takes about relations between the tables in the DB. That said, it automatically fills the dropdown list for foreign keys, automatically provides the way to navigate to all the tables related to a given one. It gives a friendly way to set up a multi-user system, it is easy with it to define the permission of a given user without any code line written...
 
-You can use the [editor on GitHub](https://github.com/lkwate/lado/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# showcases 
+![login](https://github.com/lkwate/lado/blob/master/images/Capture%20d%E2%80%99%C3%A9cran%20de%202020-11-19%2022-58-42.png)
+![login](https://github.com/lkwate/lado/blob/master/images/Capture%20d%E2%80%99%C3%A9cran%20de%202020-11-19%2023-00-17.png)
+![login](https://github.com/lkwate/lado/blob/master/images/Capture%20d%E2%80%99%C3%A9cran%20de%202020-11-19%2023-00-56.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lkwate/lado/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### the rest of the images
+https://github.com/lkwate/lado/tree/master/images
