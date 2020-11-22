@@ -4,7 +4,7 @@ import exceptions.WrongContainsOfFile;
 
 public class GuiDataAdministrator {
 
-    private static final String PATHTOFORM = "forms/login.txt";
+    private static final String PATHTOFORM = "./forms/login.txt";
 
 
     public static TemplateDataForLogin loadTemplateDataLoginForm() throws WrongContainsOfFile {

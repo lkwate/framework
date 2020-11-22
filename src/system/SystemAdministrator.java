@@ -47,9 +47,9 @@ public class SystemAdministrator {
      */
     public static Pattern REGEXPASSWORD = Pattern.compile("((?=.*[a-z])(?=.*\\\\d)(?=.*[A-Z])(?=.*[@#$%!]).{8,40})");
 
-    private static final String PATHTOFILEEDITOR = "editors/editors.txt";
-    private static final String PATHTOFIELDIMPLICANT = "impliquants/fieldImpliquant.txt";
-    private static final String PATHTOLISTIMPLICANT = "impliquants/listImpliquants.txt";
+    private static final String PATHTOFILEEDITOR = "./editors/editors.txt";
+    private static final String PATHTOFIELDIMPLICANT = "./impliquants/fieldImpliquant.txt";
+    private static final String PATHTOLISTIMPLICANT = "./impliquants/listImpliquants.txt";
 
 
     static {

@@ -1,0 +1,2 @@
+relations;code_rubrique_source#table_source=tableName
+relations;code_rubrique_destination#table_destination=tableName
