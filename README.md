@@ -27,3 +27,4 @@ java -jar lado.jar
 
 ### Some show cases
 #### login
+![login](https://github.com/lkwate/lado/blob/master/images/login-image.png =250x250)
