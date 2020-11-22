@@ -27,4 +27,4 @@ java -jar lado.jar
 
 ### Some show cases
 #### login
-![login](https://github.com/lkwate/lado/blob/master/images/login-image.png){:height="200px" width="200px"}
+<img src="https://github.com/lkwate/lado/blob/master/images/login-image.png" alt="lgoing" width="200" height="200"/>
