@@ -1,12 +1,10 @@
-INSERT INTO adresse (code, valeur_adresse, element_liaison, code_typeAdresse, description, date_creation, date_modification, user_createur, user_modificateur, date_activation, code_unique, code_statut) VALUES 
-  (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+INSERT INTO usergroupe (code, code_utilisateur, code_groupe, description, date_creation, heure_creation, heure_modification, date_modification, user_createur, user_modificateur, date_activation, code_unique, code_statut)
+VALUES
+  ('2100000321', '1', '1200000012', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '1800000000003718', '1000');
 
 
 INSERT INTO groupe (code, libelle, infos_groupe, nombre_utilisateur, description, date_creation, date_modification, user_createur, user_modificateur, date_activation, code_unique, code_statut) 
 VALUES ('1200000012', 'PUBLIC', null, '0', null, null, null, null, null, null, '0', '1000');
-
-INSERT INTO localisation (code, libelle, niveau_localite, lattitude, longitude, description, date_creation, date_modification, user_createur, user_modificateur, date_activation, code_unique, code_localite_parent, code_statut) VALUES 
-  (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
 
 
 INSERT INTO rubrique (code, nom_rubrique, code_typeRubrique, code_parent, tableName, description, date_creation, date_modification, user_createur, user_modificateur, date_activation, code_unique, code_statut) 
@@ -44,32 +42,14 @@ INSERT INTO tableCode
 ('10000006'	,'typeAdresse',	'10',	'16',	'16',	'20', NULL, NULL, NULL, NULL, NULL, NULL, '0', '1000'),
 ('10000007'	,'typeUtilisateur',	'10',	'17',	'17',	'20', NULL, NULL, NULL, NULL, NULL, NULL, '0', '1000'),
 ('10000008'	,'code_unique',	'16',	'18',	'18',	'20', NULL, NULL, NULL, NULL, NULL, NULL, '0', '1000'),
-('10000009' ,'relations', '10', '17', '17', '2', NULL, NULL, NULL, NULL, NULL, NULL, '0', '1000');
-					
-INSERT INTO typeAdresse(code, libelle, regex_pattern, description, date_creation, date_modification, user_createur, user_modificateur, date_activation, code_unique, code_statut) 
-VALUES 
-  (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?); 
+('10000009' ,'relations', '10', '17', '17', '2', NULL, NULL, NULL, NULL, NULL, NULL, 'se0', '1000'),
+
 
 INSERT INTO typeRubrique (code, libelle, description) VALUES 
   ('100', 'menu', 'rubrique menu'),
   ('101', 'feuille', 'rubrique feuille');
 
-INSERT INTO typeUtilisateur (code, libelle, description, date_creation, date_modification, user_createur, user_modificateur, date_activation, code_unique, code_statut) 
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?); 
 
 INSERT INTO utilisateur (code, noms, prenoms, nom_utilisateur, password, date_naissance, code_lieu_naissance, code_sexe, description, code_typeUtilisateur, date_creation, date_modification, user_createur, user_modificateur, date_activation, code_unique, code_statut) 
 VALUES 
   ('1', 'KWATE DASSI LOIC', NULL, 'system', 'lado', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0', '1000');
-
-/**
-USE information_schema;
- 
-SELECT 
-    table_name
-FROM
-    referential_constraints
-WHERE
-    constraint_schema = 'bdminlado'
-        AND referenced_table_name = 'rubrique'
-        AND delete_rule = 'CASCADE' ;
-*/
