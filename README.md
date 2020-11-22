@@ -27,12 +27,12 @@ java -jar lado.jar
 
 ### Some show cases
 #### login
-<img src="https://github.com/lkwate/lado/blob/master/images/login-image.png" alt="lgoing" width="300" height="300"/>
+<img src="https://github.com/lkwate/lado/blob/master/images/login-image.png" alt="lgoing" width="400" height="400"/>
 #### Creation of a new user
-<img src="https://github.com/lkwate/lado/blob/master/images/user-list.png" alt="user list" width="300" height="300" />
+<img src="https://github.com/lkwate/lado/blob/master/images/user-list.png" alt="user list" width="700" height="600" />
 #### attempting to access to a rubric without a permession
-<img src="https://github.com/lkwate/lado/blob/master/images/access-denied.png" alt="permission" width="400" height="400" />
+<img src="https://github.com/lkwate/lado/blob/master/images/access-denied.png" alt="permission" width="700" height="600" />
 #### Creation of operation
-<img src="https://github.com/lkwate/lado/blob/master/images/operation-creation.png" alt="operation creation" width="300" height="300" />
+<img src="https://github.com/lkwate/lado/blob/master/images/operation-creation.png" alt="operation creation" width="700" height="600" />
 #### Creation of Permission
-<img src="https://github.com/lkwate/lado/blob/master/images/permission-creation.png" alt"permission createion" width="400" height="300" />
+<img src="https://github.com/lkwate/lado/blob/master/images/permission-creation.png" alt"permission createion" width="700" height="600" />
