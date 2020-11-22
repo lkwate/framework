@@ -18,11 +18,12 @@ Launch Mysql server and execute the following script
 ```
 lado/config.properties
 ```
-
+### Execution
 ```
 git clone https://github.com/lkwate/lado.git
 cd lado/out/artifacts/lado_jar
+java -jar lado.jar
 ```
 
-### the rest of the images
-https://github.com/lkwate/lado/tree/master/images
+### Some show cases
+#### login
