@@ -39,4 +39,4 @@ java -jar lado.jar
 <img src="https://github.com/lkwate/lado/blob/master/images/operation-creation.png" alt="operation creation" width="700" height="600" />
 
 #### Creation of Permission
-<img src="https://github.com/lkwate/lado/blob/master/images/permission-creation.png" alt"permission createion" width="700" height="600" />
+<img src="https://github.com/lkwate/lado/blob/master/images/permission-creation.png" alt="permission creation" width="700" height="600" />
